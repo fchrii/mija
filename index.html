@@ -3,20 +3,22 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <script dafer src="script.js"></script>
+    <title>HALAMAN LOGIN </title>
 </head>
 <body>
-    <h2>LOGIN</h2>
-    <form>
-        <label>Username :</label><br><br>
-        <input type="text" name="Username"><br><br>
+    <main> id=login-container>
+        <h1>LOGIN TO NEXT</h1>
 
-        <label>Password :</label><br><br>
-        <input type="password" name="password"><br><br>
+        <div id="login-eror-mag">
+            <p id="login-eror">Invaild user or pass</p>
+        </div>
 
-        <button type="submit">Login</button><br><br>
-        
-        <a href="lupass.html">Lupa password</a>
-    </form>
+        <form id="login-form">
+            <input type="text" name="username" id="username-filed" class="login-form-filed" placeholder="Username">
+            <input type="password" name="password" id="password" class="login-form-filed" placeholder="Password">
+            <input type="submit" name="submit" id="login-submit" class="login" placeholder="Username">
+        </form>
 </body>
 </html>
